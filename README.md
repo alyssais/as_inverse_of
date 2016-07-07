@@ -1,24 +1,12 @@
-# README
+From the Rails documentation:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<blockquote>
+<dl>
+<dt>inverse_of:</dt>
+<dd>Specifies the name of the belongs_to association on the associated object that is the inverse of this has_many association. Does not work in combination with :through or :as options. See ActiveRecord::Associations::ClassMethods's overview on Bi-directional associations for more detail.</dd>
+</dl>
+</blockquote>
 
-Things you may want to cover:
+This repository demonstrates that `inverse_of:` does work in combination with `as:`.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+See [`test/has_many_as_test.rb`](test/has_many_as_test.rb).

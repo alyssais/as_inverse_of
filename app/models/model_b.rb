@@ -1,3 +1,3 @@
-class ModelB < ApplicationRecord
+class ModelB < ActiveRecord::Base
   has_many :comments, as: :commentable
 end
