@@ -1,4 +1,4 @@
-require_relative "../../config/environment"
+require_relative "../config/environment"
 
 class HasManyAsTest < ActiveSupport::TestCase
   test "inverse of works when specified" do
